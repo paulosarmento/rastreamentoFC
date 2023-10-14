@@ -35,7 +35,7 @@ services:
   # docker compose down --volumes
 
   db:
-    build: ../db
+    build: ./db
     environment:
       MONGO_INITDB_ROOT_PASSWORD: root
       MONGO_REPLICA_HOST: db

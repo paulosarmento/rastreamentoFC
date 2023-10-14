@@ -52,7 +52,7 @@ func main() {
 	servers := "host.docker.internal:9094"
 	go kafka.Consume(topics, servers, msgChan)
 
-	db, err := sql.Open("mysql", "root:root@tcp(host.docker.internal:3306)/routes?parseTime=true")
+	db, err := sql.Open("mysql", "root:root@tcp(host.docker.internal:3309)/routes?parseTime=true")
 	if err != nil {
 		panic(err)
 	}
