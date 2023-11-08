@@ -1,3 +1,4 @@
 go/docker
 go/mysql
 go/.docker/grafana_data/
+.history
